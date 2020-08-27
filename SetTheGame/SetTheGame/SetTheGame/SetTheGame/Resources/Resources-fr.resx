@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyASet" xml:space="preserve">
+    <value>Il y a déjà un set !</value>
+  </data>
+  <data name="AskButtonText" xml:space="preserve">
+    <value>Une autre carte</value>
+  </data>
+  <data name="CheatButtonText" xml:space="preserve">
+    <value>Donnez une réponse</value>
+  </data>
+  <data name="ChoseAGamemodeText" xml:space="preserve">
+    <value>Choisissez un mode de jeu</value>
+  </data>
+  <data name="ChoseLeaderboard" xml:space="preserve">
+    <value>Choisissez un classement </value>
+  </data>
+  <data name="ClickHereButton" xml:space="preserve">
+    <value>Cliquez ici !</value>
+  </data>
+  <data name="CloseRules" xml:space="preserve">
+    <value>D'accord !</value>
+  </data>
+  <data name="DefaultUsername" xml:space="preserve">
+    <value>Anonyme</value>
+  </data>
+  <data name="Easy" xml:space="preserve">
+    <value>Facile</value>
+  </data>
+  <data name="EnterUsernameText" xml:space="preserve">
+    <value>Entrez votre pseudo</value>
+  </data>
+  <data name="ErrorNoSelectedText" xml:space="preserve">
+    <value>Veuillez choisir un mode de jeu</value>
+  </data>
+  <data name="ErrorNoSelectedTitle" xml:space="preserve">
+    <value>Erreur : aucun mode sélectionné</value>
+  </data>
+  <data name="GamemodeHelpButtonText" xml:space="preserve">
+    <value>Le but de la "Course au score" est de gagner un maximum de points en un temps donné de votre choix, pouvant varier de 2 à 15 minutes.
+
+Le but de la "Course au temps" est de donner des bonnes réponses le plus rapidement possible afin d'écouler l'intégralité du paquet en un minimum de temps.</value>
+  </data>
+  <data name="GamemodeHelpButtonTitle" xml:space="preserve">
+    <value>Présentation des modes de jeu :</value>
+  </data>
+  <data name="GamemodePickerAgainstScore" xml:space="preserve">
+    <value>Course au temps</value>
+  </data>
+  <data name="GamemodePickerAgainstTime" xml:space="preserve">
+    <value>Course au score</value>
+  </data>
+  <data name="GameRulesAnnoncement" xml:space="preserve">
+    <value>Règles du jeu</value>
+  </data>
+  <data name="Got" xml:space="preserve">
+    <value> a obtenu </value>
+  </data>
+  <data name="Hard" xml:space="preserve">
+    <value>Difficile</value>
+  </data>
+  <data name="HypersetTutorial" xml:space="preserve">
+    <value>Tuto HyperSET</value>
+  </data>
+  <data name="HypersetTutorialHypersetQuestion" xml:space="preserve">
+    <value>D'après vous, ces 4 cartes forment-elles un HyperSET ? N'hésitez pas à prendre votre temps pour répondre !</value>
+  </data>
+  <data name="HypersetTutorialPageFive" xml:space="preserve">
+    <value>Félicitations ! Vous avez terminé le tutoriel d'HyperSET !
+
+Nous allons à présent lancer une partie d'HyperSET en mode débutant. Dans ce mode débutant, vous aurez la possibilité de tricher, c'est-à-dire de demander une réponse au jeu. Nous vous conseillons de prendre votre temps afin d'analyser pourquoi la réponse est valide.</value>
+  </data>
+  <data name="HypersetTutorialPageFourPartOne" xml:space="preserve">
+    <value>Plusieurs HyperSET se sont cachés parmi les 9 cartes suivantes. Saurez-vous en retrouver un ? </value>
+  </data>
+  <data name="HypersetTutorialPageFourPartTwo" xml:space="preserve">
+    <value>Bien joué, vous avez trouvé un HyperSET !</value>
+  </data>
+  <data name="HypersetTutorialPageOnePartOne" xml:space="preserve">
+    <value>Bienvenue dans le tutoriel d'HyperSET ! 
+
+Si vous voulez apprendre à jouer en HyperSET, il est impératif de savoir jouer à SET. Si vous n'êtes pas encore familier avec SET, nous vous invitons donc à vous entraîner à jouer dans ce mode de jeu. Si vous ne connaissez pas du tout SET, nous vous suggérons de jouer au tutoriel de SET et de vous entraîner jusqu'à être à l'aise.</value>
+  </data>
+  <data name="HypersetTutorialPageOnePartTwo" xml:space="preserve">
+    <value>L'HyperSET se joue avec un jeu de 81 cartes identiques au jeu SET : trois couleurs différentes, trois formes différentes, trois remplissages différents et trois nombres différents.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneCorrectRight" xml:space="preserve">
+    <value>Bonne réponse ! Les 4 cartes forment bien un HyperSET comme indiqué ci-dessous.</value>
+    <comment>L'hyperset est correct et la réponse est bonne</comment>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneCorrectWrong" xml:space="preserve">
+    <value>Mauvaise réponse ! Les 4 cartes ci-dessus forment un HyperSET comme indiqué ci-dessous. </value>
+    <comment>L'hyperset est correct mais une mauvaise réponse est donnée</comment>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneIncorrectRight" xml:space="preserve">
+    <value>Bonne réponse ! Il n'existe aucune carte fantôme pouvant compléter ces 4 cartes.</value>
+    <comment>L'hyperset est incorrect et la bonne réponse est donnée</comment>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneIncorrectWrong" xml:space="preserve">
+    <value>Mauvaise réponse ! Ces 4 cartes ne forment pas d'HyperSET !</value>
+    <comment>L'hyperset est incorrect, et la réponse est mauvaise</comment>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneRight" xml:space="preserve">
+    <value>Bonne réponse ! Les 4 cartes ci-dessus forment bien un HyperSET ! Les détails sont affichés ci-dessous.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartTwoRight" xml:space="preserve">
+    <value>Les deux cartes de gauche forment un SET avec la carte centrale. De même, les cartes de droite forment un SET avec la carte centrale. Les 4 cartes (les deux cartes de gauche et les deux cartes de droite) forment donc un HyperSET, et la carte centrale est la Carte fantôme.</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartOne" xml:space="preserve">
+    <value>Un HyperSET est constitué de 4 cartes. Ces 4 cartes, mises deux à deux, doivent former deux SET si on les complète par une même carte. Cette carte n'est pas obligatoirement sur le plateau et est dite "Carte fantôme".</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartThree" xml:space="preserve">
+    <value>Les cartes ont été divisées en deux groupes de deux. En cliquant sur le bouton ci-dessous, une cinquième carte va apparaitre : il s'agit de la Carte fantôme. Cette carte forme un SET avec les deux cartes de gauche, et en forme un autre avec les deux cartes de droite. Les 4 cartes forment donc un HyperSET.</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartTwo" xml:space="preserve">
+    <value>Les 4 cartes ci-dessus forment un HyperSET. Détaillons cela :</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>en </value>
+  </data>
+  <data name="LeaderboardAlertText" xml:space="preserve">
+    <value>Cliquez sur le texte ci-contre afin de choisir un type de classement.</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value> minutes !</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Page suivante</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="NoMoreCardsText" xml:space="preserve">
+    <value>Plus aucune carte</value>
+  </data>
+  <data name="NoScore" xml:space="preserve">
+    <value>Aucun score n'a encore été enregistré pour ce mode de jeu.</value>
+  </data>
+  <data name="NumberOfSetsAvailableText" xml:space="preserve">
+    <value>Nombre de sets disponibles : </value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Jouer</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Joueur</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value> points </value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Page précédente</value>
+  </data>
+  <data name="RemainingTimeText" xml:space="preserve">
+    <value>Temps restant : </value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Réessayer</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="ScoreLabelText" xml:space="preserve">
+    <value>Votre score est : </value>
+  </data>
+  <data name="ScorePerMinute" xml:space="preserve">
+    <value>Score par minute</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value> secondes.</value>
+  </data>
+  <data name="SetTutorial" xml:space="preserve">
+    <value>Tutoriel SET</value>
+  </data>
+  <data name="ShowCard" xml:space="preserve">
+    <value>Afficher la carte</value>
+  </data>
+  <data name="ShowScores" xml:space="preserve">
+    <value>Voir les scores</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Lancer la partie</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Temps</value>
+  </data>
+  <data name="TimeFromBeginning" xml:space="preserve">
+    <value>Votre temps : </value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Tutoriel</value>
+  </data>
+  <data name="TutorialPageFivePartOne" xml:space="preserve">
+    <value>Trois SET se sont cachés parmi les 9 cartes suivantes ! Saurez-vous en retrouver un ?</value>
+  </data>
+  <data name="TutorialPageFivePartTwo" xml:space="preserve">
+    <value>Bien joué ! Vous avez trouvé le SET !</value>
+  </data>
+  <data name="TutorialPageFourMultipleParts" xml:space="preserve">
+    <value>Les 3 cartes ci-dessus forment-elles un SET ?</value>
+  </data>
+  <data name="TutorialPageFourPartOne" xml:space="preserve">
+    <value>Un petit peu de pratique !
+
+Les 3 cartes suivantes forment-elles un SET ?</value>
+  </data>
+  <data name="TutorialPageFourPartThreeRight" xml:space="preserve">
+    <value>Bonne réponse ! Les 3 cartes ci-dessus forment bien un SET puisque les 4 critères (forme, couleur, nombre, remplissage) sont tous soit identiques soit différents pour les 3 cartes.</value>
+  </data>
+  <data name="TutorialPageFourPartThreeWrong" xml:space="preserve">
+    <value>Mauvaise réponse ! Les 3 cartes ci-dessus forment un SET. En effet, les 4 critères (forme, couleur, nombre et remplissage) sont tous soit identiques soit différents pour les 3 cartes.</value>
+  </data>
+  <data name="TutorialPageFourPartTwoRight" xml:space="preserve">
+    <value>Bonne réponse ! Puisque deux cartes présentent des formes pleines, mais pas la troisième, les 3 cartes ci-dessus ne forment pas un SET.</value>
+  </data>
+  <data name="TutorialPageFourPartTwoWrong" xml:space="preserve">
+    <value>Mauvaise réponse ! Les 3 cartes-ci dessus ne conviennent pas puisque le remplissage des symboles n'est pas bon. Les 3 cartes ne présentent ni un remplissage strictement identique, ni un remplissage strictement différent.</value>
+  </data>
+  <data name="TutorialPageOnePartOne" xml:space="preserve">
+    <value>Bienvenue dans le tutoriel de SET !
+
+Le jeu SET est composé de 81 cartes qui présentent des symboles qui possèdent 4 caractéristiques distinctes :
+- Leur forme : ovale, losange, vague
+- Leur couleur : Bleu, rouge, vert (modifiables dans les options)
+- Leur quantité : Une, deux, trois formes
+- Leur remplissage : Plein, vide, hachuré</value>
+  </data>
+  <data name="TutorialPageOnePartTwo" xml:space="preserve">
+    <value>Les trois cartes ci-dessus représentent les différents remplissages, formes, couleurs et nombre disponibles.
+
+Le but du jeu est de trouver le plus rapidement possible des groupes de 3 cartes respectant des critères précis. On appelle ces groupes des SET.</value>
+  </data>
+  <data name="TutorialPageSixPartOne" xml:space="preserve">
+    <value>Félicitations ! Vous avez fini le tutoriel de SET !
+
+Si vous le souhaitez, vous pouvez rejouer le tutoriel dans le menu des options.
+
+Nous allons à présent lancer une partie de SET en mode débutant. Pendant cette partie, vous aurez la possibilité de "tricher", c'est-à-dire de cliquer sur un bouton qui vous donnera une réponse. Mais attention, vous perdrez un point si vous le faites !</value>
+  </data>
+  <data name="TutorialPageThreePartOne" xml:space="preserve">
+    <value>Deux autres exemples :</value>
+  </data>
+  <data name="TutorialPageThreePartThree" xml:space="preserve">
+    <value>Les 3 cartes ci-dessus, quant à elles, ne forment pas un SET. Elles vérifient certains critères :
+- Les 3 cartes présentent le même nombre
+- Les 3 cartes présentent des couleurs différentes
+- Les 3 cartes présentent un remplissage différent
+Mais elles ne valident pas le critère de la forme ! En effet, deux d'entre elles présentent une forme en losange, mais pas la troisième.</value>
+  </data>
+  <data name="TutorialPageThreePartTwo" xml:space="preserve">
+    <value>Les 3 cartes ci-dessus forment un SET puisque :
+- Les 3 cartes ont la même forme
+- Les 3 cartes ont un nombre différent
+- Les 3 cartes ont un remplissage différent
+- Les 3 cartes ont les mêmes couleurs</value>
+  </data>
+  <data name="TutorialPageTwoPartOne" xml:space="preserve">
+    <value>Un SET est un ensemble de 3 cartes dont chacune des 4 caractéristiques est soit totalement identique, soit totalement différente des deux autres cartes.
+Trois cartes forment donc un SET si et seulement si les 4 règles suivantes sont respectées :
+- La couleur des symboles est 3 fois strictement identique ou 3 fois totalement différente;
+- La forme des symboles est 3 fois strictement identique ou 3 fois totalement différente;
+- Le nombre de symboles est 3 fois strictement identique ou 3 fois totalement différente;
+- Le remplissage des symboles est 3 fois strictement identique ou 3 fois totalement différent.</value>
+  </data>
+  <data name="TutorialPageTwoPartTwo" xml:space="preserve">
+    <value>Les trois cartes ci-dessus forment un SET. Détaillons les 4 critères présentés si dessus :
+
+- Les 3 cartes présentent une forme identique : ✔
+- Les 3 cartes présentent des couleurs différentes : ✔
+- Les 3 cartes présentent un nombre différent : ✔
+- Les 3 cartes présentent un remplissage différent : ✔</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Pseudo</value>
+  </data>
+  <data name="WantATutorial" xml:space="preserve">
+    <value>Voulez vous lancer le tutoriel ?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oui</value>
+  </data>
+  <data name="YourScoreText" xml:space="preserve">
+    <value>Vous avez obtenu </value>
+  </data>
+  <data name="YourTimeText" xml:space="preserve">
+    <value>Vous avez réussi en </value>
+  </data>
+</root>

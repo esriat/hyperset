@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SetTheGame.GameModeMenu"
+             x:Name="MyPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.Content>
+        <Grid x:Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Grid Grid.Row="1" Grid.Column="1" x:Name="GameGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="8*"/>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="12*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelset" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="0" FontSize="20" HorizontalTextAlignment="End" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                <Switch x:Name="gameSwitch" Grid.Column="1" VerticalOptions="Center" WidthRequest="200" />
+                <Label x:Name="labelhyperset" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="2" FontSize="20" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="2" Grid.Column="1" x:Name="nbPlayerGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="slider" Grid.Column="0" HorizontalOptions="FillAndExpand" ValueChanged="Slider_ValueChanged" MinimumTrackColor="HotPink" ThumbColor="HotPink" MaximumTrackColor="LightBlue"/>
+                <Label x:Name="nbLabel" Grid.Column="1" TextColor="{DynamicResource PrimaryTextColor}" FontSize="20" VerticalTextAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="3" Grid.Column="1" x:Name="SecondGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labelScore" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="0" FontSize="20" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                <Switch x:Name="modeSwitch" Grid.Column="1" VerticalOptions="Center"/>
+                <Label x:Name="labelTemps" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="2" FontSize="20" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+
+                <ImageButton x:Name="myImageButton" Source="questionMark.png" Grid.Column="3" Clicked="ImageButton_Clicked" BackgroundColor="Transparent"/>
+            </Grid>
+
+            <Grid Grid.Row="4" Grid.Column="1" x:Name="timeGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="timeslider" Grid.Column="0" HorizontalOptions="FillAndExpand" ValueChanged="TimeSlider_ValueChanged" MinimumTrackColor="HotPink" ThumbColor="HotPink" MaximumTrackColor="LightBlue"/>
+                <Label x:Name="timeLabel" Grid.Column="1" TextColor="{DynamicResource PrimaryTextColor}" FontSize="20" VerticalTextAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="5" Grid.Column="1" x:Name="DiffGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="13*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="labeleasy" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="0" FontSize="20" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+                <Switch x:Name="diffSwitch" Grid.Column="1" VerticalOptions="Center"/>
+                <Label x:Name="labelexpert" TextColor="{DynamicResource PrimaryTextColor}" Grid.Column="2" FontSize="20" VerticalTextAlignment="Center" VerticalOptions="Center"/>
+            </Grid>
+            <Button x:Name="NextButton" Grid.Row="11" Grid.Column="1" Clicked="NextButton_Clicked" Text="Next" CornerRadius="10" BackgroundColor="Aqua" Margin="5"/>
+         </Grid>
+    </ContentPage.Content>
+</ContentPage>

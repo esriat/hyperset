@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      x:Class="SetTheGame.TutorialPages.HypersetTutorialPageOne"
+      BackgroundColor="{DynamicResource PageBackgroundColor}"
+      x:Name="MainGrid">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="10*" />
+        <RowDefinition Height="50*" />
+        <RowDefinition Height="40*" />
+        <RowDefinition Height="3*" />
+        <RowDefinition Height="55*" />
+        <RowDefinition Height="15*" />
+    </Grid.RowDefinitions>
+
+    <Grid Grid.Row="5" x:Name="ButtonsGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!--<Button x:Name="leavePagePreviousButton" Grid.Column="0" Clicked="leavePagePreviousButton_Clicked"/>-->
+        <Button x:Name="NextPageButton" Grid.Column="1" Clicked="CenterButton_Clicked" CornerRadius="10" BackgroundColor="Aqua" TextColor="Black"/>
+    </Grid>
+
+    <Grid x:Name="CardsGrid" Grid.Row="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+    </Grid>
+</Grid>

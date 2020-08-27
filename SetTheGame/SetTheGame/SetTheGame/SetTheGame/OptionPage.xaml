@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SetTheGame.OptionPage"
+             x:Name="optionPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.Content VerticalOptions="Center" HorizontalOptions="Center">
+
+        <Grid x:Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="24*"/>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="3*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid x:Name="ColorPickersGrid" Grid.Row="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="2*" />
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="9*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+
+                <Grid x:Name="SquaresGrid" Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="1*" />
+                        <ColumnDefinition Width="2*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid x:Name="SquareOne" BackgroundColor="Wheat" Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="10000*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10000*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:Name="UnderSquareOne" Grid.Row="1" Grid.Column="1" />
+                    </Grid>
+
+                    <Grid x:Name="SquareTwo" BackgroundColor="Wheat" Grid.Column="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="10000*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10000*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:Name="UnderSquareTwo" Grid.Row="1" Grid.Column="1" />
+                    </Grid>
+
+                    <Grid x:Name="SquareThree" BackgroundColor="Wheat" Grid.Column="5">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="10000*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="10000*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid x:Name="UnderSquareThree" Grid.Row="1" Grid.Column="1" />
+                    </Grid>
+                </Grid>
+
+                <Grid x:Name="SlidersGrid" Grid.Row="3" Padding="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Slider x:Name="RedSlider" Minimum="0" Maximum="255" MinimumTrackColor="Red" ThumbColor="Red" MaximumTrackColor="LightBlue"/>
+                    <Slider Grid.Row="1" x:Name="GreenSlider" Minimum="0" Maximum="255" MinimumTrackColor="Green" ThumbColor="Green" MaximumTrackColor="LightBlue"/>
+                    <Slider Grid.Row="2" x:Name="BlueSlider" Minimum="0" Maximum="255"  MinimumTrackColor="Blue" ThumbColor="Blue" MaximumTrackColor="LightBlue"/>
+                </Grid>
+            </Grid>
+
+            <Label x:Name="title" Text="OPTIONS" TextColor="{DynamicResource PrimaryTextColor}" FontSize="30" HorizontalOptions="Center"/>
+            <FlexLayout HorizontalOptions="Center" Grid.Row="1" x:Name="themeLayout">
+                <Label x:Name="labels" Text="Theme :" TextColor="{DynamicResource PrimaryTextColor}" VerticalTextAlignment="Center"/>
+                <ImageButton x:Name="themeButton" Clicked="ThemeSwitcher_Clicked" BackgroundColor="Transparent" />
+            </FlexLayout>
+            <Grid x:Name="colorsButtons" Grid.Row="4">
+                <Button x:Name="DefaultColorButton" Clicked="ButtonColor_Clicked" Grid.Column="0" CornerRadius="10" BackgroundColor="Aqua"/>
+                <Button x:Name="ColorblindColorButton" Clicked="ColorblindButton_Clicked" Grid.Column="1" CornerRadius="10" BackgroundColor="Aqua"/>
+            </Grid>
+            <Button x:Name="PreviewColorButton" Clicked="PreviewColorButton_Clicked" Grid.Row="5" CornerRadius="10" BackgroundColor="Aqua"/>
+            <Grid HorizontalOptions="Center" Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="3*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Français" TextColor="{DynamicResource PrimaryTextColor}" VerticalTextAlignment="Center" Grid.Column="0" HorizontalTextAlignment="End"/>
+                <Switch Toggled="Switch_Toggled" x:Name="LanguageSwitch" Grid.Column="1"/>
+                <Label Text="English" TextColor="{DynamicResource PrimaryTextColor}" VerticalTextAlignment="Center" Grid.Column="2"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

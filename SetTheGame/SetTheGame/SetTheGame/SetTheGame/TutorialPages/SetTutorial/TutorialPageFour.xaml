@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      x:Class="SetTheGame.TutorialPages.TutorialPageFour"
+      BackgroundColor="{DynamicResource PageBackgroundColor}"
+      x:Name="MainGrid">
+
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="5*" />
+        <RowDefinition Height="35*" />
+        <RowDefinition Height="5*" />
+        <RowDefinition Height="15*" />
+        <RowDefinition Height="15*" />
+        <RowDefinition Height="35*" />
+        <RowDefinition Height="5*" />
+        <RowDefinition Height="15*" />
+        <RowDefinition Height="21*" />
+        <RowDefinition Height="15*" />
+    </Grid.RowDefinitions>
+
+    <Grid Grid.Row="1" x:Name="CardsGridOne">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+    </Grid>
+
+    <Grid Grid.Row="3" x:Name="ButtonsGridOne">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" x:Name="FirstButton"/>
+        <Button Grid.Column="1" x:Name="SecondButton"/>
+    </Grid>
+
+    <Grid Grid.Row="9" x:Name="NavigationButtonsGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Grid>

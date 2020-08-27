@@ -1,0 +1,2 @@
+Première sortie du jeu "Hyperset", une adaptation mobile du jeu SET ainsi que de sa variante HyperSET. 
+Le jeu consiste à obtenir le plus de points possible en le moins de temps possible.

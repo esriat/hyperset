@@ -1,0 +1,1 @@
+Adaptation mobile du jeu de cartes SET et de sa variante HyperSET.

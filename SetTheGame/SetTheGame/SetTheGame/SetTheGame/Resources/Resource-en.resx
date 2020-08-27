@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyASet" xml:space="preserve">
+    <value>There is already a set !</value>
+  </data>
+  <data name="AskButtonText" xml:space="preserve">
+    <value>Another card</value>
+  </data>
+  <data name="CheatButtonText" xml:space="preserve">
+    <value>Give an answer</value>
+  </data>
+  <data name="ChoseAGamemodeText" xml:space="preserve">
+    <value>Chose a game mode</value>
+  </data>
+  <data name="ChoseLeaderboard" xml:space="preserve">
+    <value>Chose a leaderboard</value>
+  </data>
+  <data name="ClickHereButton" xml:space="preserve">
+    <value>Click Here !</value>
+  </data>
+  <data name="CloseRules" xml:space="preserve">
+    <value>Alright !</value>
+  </data>
+  <data name="DefaultUsername" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+  <data name="Easy" xml:space="preserve">
+    <value>Easy</value>
+  </data>
+  <data name="EnterUsernameText" xml:space="preserve">
+    <value>Enter your username</value>
+  </data>
+  <data name="ErrorNoSelectedText" xml:space="preserve">
+    <value>Please chose a game mode</value>
+  </data>
+  <data name="ErrorNoSelectedTitle" xml:space="preserve">
+    <value>Error: no selected mode</value>
+  </data>
+  <data name="GamemodeHelpButtonText" xml:space="preserve">
+    <value>The goal of the "Score Race" is to gain a maximum of points in a given time of your choice, which can vary from 2 to 15 minutes.
+
+The aim of the "Race to Time" is to give correct answers as quickly as possible so that the entire package can be sold in the shortest possible time.</value>
+  </data>
+  <data name="GamemodeHelpButtonTitle" xml:space="preserve">
+    <value>Game mode presentation: </value>
+  </data>
+  <data name="GamemodePickerAgainstScore" xml:space="preserve">
+    <value>Time Race</value>
+  </data>
+  <data name="GamemodePickerAgainstTime" xml:space="preserve">
+    <value>Score Race</value>
+  </data>
+  <data name="GameRulesAnnoncement" xml:space="preserve">
+    <value>Game rules</value>
+  </data>
+  <data name="Got" xml:space="preserve">
+    <value>got</value>
+  </data>
+  <data name="Hard" xml:space="preserve">
+    <value>Hard</value>
+  </data>
+  <data name="HypersetTutorial" xml:space="preserve">
+    <value>HyperSET tuto</value>
+  </data>
+  <data name="HypersetTutorialHypersetQuestion" xml:space="preserve">
+    <value>Do you think that these 4 cards form a HyperSET ? Take your time to answer !</value>
+  </data>
+  <data name="HypersetTutorialPageFive" xml:space="preserve">
+    <value>Congratulations! You have completed the HyperSET tutorial!
+
+We will now launch a game of HyperSET in beginner mode. In this beginner mode, you will have the possibility of cheating, which means asking for an answer to the game. We advise you to take your time in order to analyze why the answer is valid.</value>
+  </data>
+  <data name="HypersetTutorialPageFourPartOne" xml:space="preserve">
+    <value>Several HyperSETs are hidden among the following cards. Can you find one?</value>
+  </data>
+  <data name="HypersetTutorialPageFourPartTwo" xml:space="preserve">
+    <value>Well played, you found a HyperSET !</value>
+  </data>
+  <data name="HypersetTutorialPageOnePartOne" xml:space="preserve">
+    <value>Welcome to the HyperSET tutorial!
+
+If you want to learn how to play HyperSET, it is imperative to know how to play SET. If you are not familiar with SET, then we invite you to practice playing in this game mode. If you do not know the SET game, we suggest you play the SET tutorial and practice to be comfortable.</value>
+  </data>
+  <data name="HypersetTutorialPageOnePartTwo" xml:space="preserve">
+    <value>HyperSET is played with a set of 81 cards identical to the SET game: three different colors, three different shapes, three different fillings and three different numbers.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneCorrectRight" xml:space="preserve">
+    <value>Right answer ! The 4 cards do form a HyperSET as shown below.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneCorrectWrong" xml:space="preserve">
+    <value>Wrong answer ! The 4 cards above form a HyperSET as shown below.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneIncorrectRight" xml:space="preserve">
+    <value>Right answer ! There is no ghost card that can complement these 4 cards.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneIncorrectWrong" xml:space="preserve">
+    <value>Wrong answer ! These 4 cards do not form a HyperSET!</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartOneRight" xml:space="preserve">
+    <value>Right answer ! The 4 cards above form a HyperSET! The details are shown below.</value>
+  </data>
+  <data name="HypersetTutorialPageThreePartTwoRight" xml:space="preserve">
+    <value>The two cards on the left form a SET with the central card. Likewise, the cards on the right form a SET with the central card. The 4 cards (the two cards on the left and the two cards on the right) therefore form a HyperSET, and the central card is the Ghost Card.</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartOne" xml:space="preserve">
+    <value>A HyperSET consists of 4 cards. These 4 cards, put two by two, must form two SETs if they are completed by a same 5th card. This card is not necessarily on the board and is called "Ghost Card".</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartThree" xml:space="preserve">
+    <value>The cards were divided into two groups of two. By clicking on the button below, a fifth card will appear: it is the Ghost Card. This card forms a SET with the two cards on the left, and forms another with the two cards on the right. The 4 cards therefore form a HyperSET.</value>
+  </data>
+  <data name="HypersetTutorialPageTwoPartTwo" xml:space="preserve">
+    <value>The 4 cards above are an HyperSET. Let's explain that :</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="LeaderboardAlertText" xml:space="preserve">
+    <value>Click on the text to chose a classment type.</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes!</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoMoreCardsText" xml:space="preserve">
+    <value>No more card</value>
+  </data>
+  <data name="NoScore" xml:space="preserve">
+    <value>No score have been save for this game mode</value>
+  </data>
+  <data name="NumberOfSetsAvailableText" xml:space="preserve">
+    <value>Number of sets available: </value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>points</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Previous page</value>
+  </data>
+  <data name="RemainingTimeText" xml:space="preserve">
+    <value>Remaining time: </value>
+  </data>
+  <data name="Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="ScoreLabelText" xml:space="preserve">
+    <value>Your score is: </value>
+  </data>
+  <data name="ScorePerMinute" xml:space="preserve">
+    <value>Score per minute</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value> seconds.</value>
+  </data>
+  <data name="SetTutorial" xml:space="preserve">
+    <value>SET tutorial</value>
+  </data>
+  <data name="ShowCard" xml:space="preserve">
+    <value>Show the card</value>
+  </data>
+  <data name="ShowScores" xml:space="preserve">
+    <value>Leaderboard</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Start game</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="TimeFromBeginning" xml:space="preserve">
+    <value>Your time:</value>
+  </data>
+  <data name="Tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="TutorialPageFivePartOne" xml:space="preserve">
+    <value>Three SET hid among the 9 following cards! Will you find one?</value>
+  </data>
+  <data name="TutorialPageFivePartTwo" xml:space="preserve">
+    <value>Well done! You found a SET!</value>
+  </data>
+  <data name="TutorialPageFourMultipleParts" xml:space="preserve">
+    <value>Do the 3 cards above form a SET?</value>
+  </data>
+  <data name="TutorialPageFourPartOne" xml:space="preserve">
+    <value>A little practice!
+
+Do the following 3 cards form a SET?</value>
+  </data>
+  <data name="TutorialPageFourPartThreeRight" xml:space="preserve">
+    <value>Right answer ! The 3 cards above form a SET since the 4 criteria (shape, color, number, filling) are all identical or different for the 3 cards.</value>
+  </data>
+  <data name="TutorialPageFourPartThreeWrong" xml:space="preserve">
+    <value>Wrong answer ! The 3 cards above form a SET. Indeed, the 4 criteria (shape, color, number and filling) are all either identical or different for the 3 cards.</value>
+  </data>
+  <data name="TutorialPageFourPartTwoRight" xml:space="preserve">
+    <value>Right answer ! Since two cards have filled shapes, but not the third, the 3 cards above do not form a SET.</value>
+  </data>
+  <data name="TutorialPageFourPartTwoWrong" xml:space="preserve">
+    <value>Wrong answer ! The 3 cards above are not suitable because the filling of the symbols is not good. The 3 cards have neither a strictly identical filling nor a strictly different filling.</value>
+  </data>
+  <data name="TutorialPageOnePartOne" xml:space="preserve">
+    <value>Welcome to the SET tutorial!
+
+The SET game consists of 81 cards that have symbols that have 4 distinct characteristics:
+- Their shape: oval, diamon, wave
+- Their color: Blue, red, green (modifiable in the options)
+- Their quantity: One, two, three forms
+- Their filling: Full, empty, hatched</value>
+  </data>
+  <data name="TutorialPageOnePartTwo" xml:space="preserve">
+    <value>The three cards above represent the different fills, shapes, colors and numbers available.
+
+The goal of the game is to find groups of 3 cards that meet specific criteria as quickly as possible. These groups are called SET.</value>
+  </data>
+  <data name="TutorialPageSixPartOne" xml:space="preserve">
+    <value>Congratulations! You have finished the tutorial of SET!
+
+If you wish, you can replay the tutorial in the options menu.
+
+We will now start a game of SET in beginner mode. During this part, you will have the opportunity to "cheat", that is to say to click on a button that will give you an answer. But beware, you will lose a point if you do!</value>
+  </data>
+  <data name="TutorialPageThreePartOne" xml:space="preserve">
+    <value>Two other examples:</value>
+  </data>
+  <data name="TutorialPageThreePartThree" xml:space="preserve">
+    <value>The 3 cards above, as for them, do not form a SET. They verify certain criteria:
+- The 3 cards have the same number
+- The 3 cards have different colors
+- The 3 cards have a different fill
+But they do not validate the criterion of form! Indeed, two of them have a diamond shape, but not the third.</value>
+  </data>
+  <data name="TutorialPageThreePartTwo" xml:space="preserve">
+    <value>The 3 cards above form a SET since:
+- The 3 cards have the same form
+- The 3 cards have a different number
+- The 3 cards have a different fill
+- The 3 cards have the same colors</value>
+  </data>
+  <data name="TutorialPageTwoPartOne" xml:space="preserve">
+    <value>A SET is composed of 3 cards. Each card has 4 characteristics that are either completely identical or completely different to the two other cards in the set.
+3 cards form a set if and only if these 4 rules are respected.
+- The colour of the symbol is either 3 times identical or 3 times different
+- The shape of the symbol  is either 3 times identical or 3 times different
+- The number of symbols  is either 3 times identical or 3 times different
+- The way the symbol is filled in is either 3 times identical or 3 times different</value>
+  </data>
+  <data name="TutorialPageTwoPartTwo" xml:space="preserve">
+    <value>The three cards above form a SET. Let's detail the 4 criteria presented above:
+
+- The 3 cards have the same shape: ✔
+- The 3 cards have different colors: ✔
+- The 3 cards have a different number: ✔
+- The 3 cards have a different filling: ✔</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="WantATutorial" xml:space="preserve">
+    <value>Do you want to launch the tutorial?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="YourScoreText" xml:space="preserve">
+    <value>You got</value>
+  </data>
+  <data name="YourTimeText" xml:space="preserve">
+    <value>You made it in</value>
+  </data>
+</root>
